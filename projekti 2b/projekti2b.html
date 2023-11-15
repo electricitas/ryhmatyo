@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tyylit2b.css">
+    <title>Yksinkertainen JavaScript tietovisa</title>
+    <script src="js/java2b.js"></script>
+</head>
+<body>
+    <form name="kyselyLomake" onsubmit="return lahetaVastaukset()">
+        <section>
+            <div id="sisalto">
+                <header>
+                    <h1>Yksinkertainen JavaScript tietovisa</h1>
+                    <p>Testaa tietosi <strong>JavaScriptin perusteista</strong></p>
+                </header>
+            </div>
+
+
+
+            <div id="tulokset"></div>
+            <h3>1. Mihin HTML elementtiin sijoitamme JavaScript koodin?</h3>
+            <input type="radio" name="k1" value="a" id="k1a" />a. &lt;js&gt;<br />
+            <input type="radio" name="k1" value="b" id="k1b" />b. &lt;script&gt;<br />
+            <input type="radio" name="k1" value="c" id="k1c" />c. &lt;body&gt;<br />
+            <input type="radio" name="k1" value="d" id="k1d" />d. &lt;link&gt;<br />
+
+
+
+            <div id="tulokset2"></div>
+            <h3>1. Mitä HTML attribuuttia käytetään viittaamaan ulkoiseen JavaScript tiedostoon?</h3>
+            <input type="radio" name="k2" value="a" id="k2a" />a. src;<br />
+            <input type="radio" name="k2" value="b" id="k2b" />b. link;<br />
+            <input type="radio" name="k2" value="c" id="k2c" />c. rel;<br />
+            <input type="radio" name="k2" value="d" id="k2d" />d. href;<br />
+
+
+
+            <div id="tulokset3"></div>
+            <h3>1. Kuinka kirjoitat "Moikka" alert-viestinä?</h3>
+            <input type="radio" name="k3" value="a" id="k3a" />a. msg("Moikka");<br />
+            <input type="radio" name="k3" value="b" id="k3b" />b. alertBox("Moikka");<br />
+            <input type="radio" name="k3" value="c" id="k3c" />c. document.write("Moikka");<br />
+            <input type="radio" name="k3" value="d" id="k3d" />d. alert("Moikka");<br />
+
+
+
+            <div id="tulokset4"></div>
+            <h3>1. JavaScript on suoraan "Java" ohjelmointikielen sukulainen</h3>
+            <input type="radio" name="k4" value="a" id="k4a" />a. Kyllä<br />
+            <input type="radio" name="k4" value="b" id="k4b" />b. Ei<br />
+
+
+
+            <div id="tulokset5"></div>
+            <h3>1. JavaScript muuttuja pitää alkaa tietyllä merkillä</h3>
+            <input type="radio" name="k5" value="a" id="k5a" />a. @<br />
+            <input type="radio" name="k5" value="b" id="k5b" />b. $<br />
+            <input type="radio" name="k5" value="c" id="k5c" />c. #<br />
+            <input type="radio" name="k5" value="d" id="k5d" />d. Ei tarvitse tiettyä merkkiä<br />
+            <br><br>
+            <input type="submit" value="Lähetä vastaukset" />
+        </section>
+        <footer>
+            <p>Copyright &copy; Panu Eklund 2023, kaikki oikeudet pidätetään</p>
+        </footer>
+    </form>
+</body>
+</html>
